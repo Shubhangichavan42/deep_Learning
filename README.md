@@ -1,6 +1,6 @@
                                          
 
-                           #Swami is always with me(🙇‍♀)
+                           Swami is always with me(🙏)
 
 # deep_Learning
 This is a power bi end to end learning .
