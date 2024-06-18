@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html Form Elements</title>
+
+</head>
+<body> 
+      <form action="/action_page.php" method="get">
+        <fieldset>
+            <legend><b> Personality:</b></legend>
+            <label for="fname"><b>First Name:</b></label><br>
+            <input type="text" id="fname" name="fname" value="shubhangi">
+       <br>
+         <label for=" lname"> <b>Last Name:</b></label><br>
+         <input type="text" id="lname" name="lname" value="Chavan">
+       
+         <br><br>
+         <label for="Email"><b>Email Id:</b></label><br>
+         <input type="text"id="Email" name="Email">
+         <br><br>
+
+        <label for="phone"><b> Enter a Phone Number:</b></label><br>
+        <input type="tel" id="phone" placeholder="+91 1234567890"
+        pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required><br>
+        <small> Format: 123-45-678-90</small><br>
+
+        <label for="State"><b>Selecte a States:</b></label>
+        <select id="States" name="States">
+            <option value="Gujarat">Gujarat</option>
+            <option value="Goa">Goa</option>
+            <option value="Maharashtra">Maharashtra</option>
+            <option value="Keral">keral</option>
+            <option value="Manali">Manali</option>
+            <option value="Kashmir">Kashmir</option>
+        </select>
+        <br>
+        <label for="Country"><b>Selecte a Countrys:</b></label>
+        <select id="Country" name="Countrys">
+            <option value="India">India</option>
+            <option value="America">America</option>
+            <option value="Korean">Korean</option>
+            <option value="england">England</option>
+            <option value="Pakistan">Pakistan</option>
+            <option value="China">China</option>
+            </select>
+        <br>
+        <label for="bdaymonth">Birthday (month and year):</label>
+        <input type="Month" id="bdaymonth" name="bdatmonth">
+        <br><br>
+
+         <h2> <b>My Favorite City </b></h2>
+       <input type="radio" id="pune" name="Fav_city" value="Pune">
+       <label for="City">Pune</label><br>
+       <input type="radio" id="Nashik" name="fav_city" value="Nashik">
+       <label for="city">Nashik</label><br>
+       <input type="radio" id="Chalisgaon" name="Fav_city" value="Chalisgaon">
+       <lable for="city">Chalisgaon</lable><br>
+       <input type="radio" id="Ahmadabad" name="Fav_city" value="Ahmadabad">
+       <label for="city">Ahmadabad</label><br>
+       <input type="radio" id="Dubai" name="Fav_city" value="Dubai">
+       <label for="city">Dubai</label><br>
+
+        <h2><b>My Favorite Hobbies</b></h2>
+       <input type="checkbox" id="Hobbie1" name="Hobbie1" value="Learning">
+       <label for="Hobbyie1">l like a study avery time.</label><br>
+       <input type="checkbox" id="Hobbie2" name="Hobbie2" value="Coding">
+       <label for="Hobbyie2">l like a coding .</label><br>
+       <input type="checkbox" id="Hobbie3" name="Hobbie3" value="Presentation">
+       <label for="Hobbie3">Confidant Level Improve through Presentation.</label><br><br>
+
+      <textarea name="feedback" id="101" placeholder="please give your valueable feedback here" rows="5"> Feedback</textarea>
+        <h4> Complete The All Persnality Click the Submit Button and go to the return.</h4>
+        <button type="button " onclick="alert('Thank you!')">Click Me!</button>
+    </fieldset>
+    </form>
+    
+</body>
+</html>
